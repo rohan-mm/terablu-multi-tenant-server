@@ -1,0 +1,27 @@
+{
+  "name": "terablu-multi-tenant-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dev": "nodemon app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohan-mm/terablu-multi-tenant-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohan-mm/terablu-multi-tenant-server/issues"
+  },
+  "homepage": "https://github.com/rohan-mm/terablu-multi-tenant-server#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "express": "^4.17.2",
+    "mqtt": "^4.3.4",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15"
+  }
+}
